@@ -18,4 +18,13 @@ This repository contains HTML file that is able to decompose Javascript Code and
 ## Workflow 
 * load javascript file (e.g. `myscript.js`) with the `fs` module from the filesystem and store the loaded string in variable `str4code`
 * use the variable `str4code` as input for the AST generator and you will obtain a JSON tree.
+```javascript
+// Make sure acorn and astring modules are imported
+
+var str4code = fs.readFileSync('./myscript.js',
+    { encoding: 'utf8', flag: 'r' });
+// File is Javascript in version `ecmaVersion 6` and then call the parser to generate the AST
+var ast4code = acorn.parse(str4code, { ecmaVersion: 6 })
+
+```
  
