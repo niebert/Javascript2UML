@@ -1,11 +1,16 @@
 # Javascript2UML
 This repository contains HTML file that is able to decompose Javascript Code and create a JSON file with an UML structure for the class. The class can be imported to ClassEditorUML. This workflow coontains two major steps:
 * convert Javascript into an Abstract Syntax Tree (parsing e,g, with [ASTring](https://github.com/davidbonnet/astring)
-* generate code from a given Abstract Syntax Tree.
+* generate code from a given Abstract Syntax Tree.o
+* Edit object oriented javascript files e.g. https://niebert.github.io/ClassEditorUML/ and create UML diagrams with them.
+* combine workflows Javascript to AST to UML 
 
 ## Parsers 
 * [ASTring](https://github.com/davidbonnet/astring) contains a parser and a code generator.
 * [PEG Javascript Paraser Generator](https://github.com/pegjs/pegjs)
+
+## Editor 
+* [ClassEditorUML for Javascript](https://niebert.github.io/ClassEditorUML)
 
 ## Installation 
 * For installation call a `git clone` and the NPM `install` command
