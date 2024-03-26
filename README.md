@@ -8,7 +8,7 @@ This repository contains HTML file that is able to decompose Javascript Code and
 * [PEG Javascript Paraser Generator](https://github.com/pegjs/pegjs)
 
 ## Installation 
-* `git clone´ and NPM install
+* `git clone` and NPM install
 ```bash
   git clone https://github.com/davidbonnet/astring.git
   cd astring
