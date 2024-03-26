@@ -9,11 +9,11 @@ This repository contains HTML file that is able to decompose Javascript Code and
 
 ## Installation 
 * `git clone´ and NPM install
-
+```bash
   git clone https://github.com/davidbonnet/astring.git
   cd astring
   npm install
-
+```
 
 ## Workflow 
 * load javascript file with the `fs` module from the filesystem
