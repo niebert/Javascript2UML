@@ -40,6 +40,7 @@ fs.writeFile('./myscript.ast', ast4str, err => {
     console.error(err);
   } else {
     // AST was written successfully as file 'myscript.ast' to filesystem
+    // convert AST to UML diagram
   }
 });
 ```
